@@ -1,0 +1,44 @@
+h1{
+  background-color: rgb(153,153,204);
+  margin-bottom: 0px;
+  border-bottom : 3px solid black;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 300%
+}
+body{
+  font-family: sans-serif ;
+   margin-left: 50px;
+   margin-right: 50px;
+   border : 3px solid black;
+     }
+#grid{
+   display: grid;
+   grid-template-columns: 100px 1fr;
+}
+#grid2{
+   display: grid;
+   grid-template-columns: 1.8fr 1fr;
+}
+h2,p, table{
+  margin-left : 10px;
+}
+table,td{
+  border : 1px solid black;
+  border-collapse: collapse;
+  text-align:center
+}
+#col{
+  font-weight: bold;
+  background-color : lightgrey;
+}
+#item1{
+  background-color: rgb(205,205,154);
+  font-size: 120%;
+  line-height : 200%;
+  border-right : 3px solid black;
+}
+#item2
+{
+  background-color: rgb(255,255,204);
+}

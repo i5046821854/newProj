@@ -1,0 +1,30 @@
+table, th, td { border: 1px solid black; text-align: center;
+              }
+#grid{                                               /*IE에서는 제대로 구현이 안되는 것 같습니다.*/
+  display : grid;
+  grid-template-columns : 1fr 1fr 1fr;
+  border: 2px solid black;
+  font-size: 150%;
+  font-weight: bolder;
+  text-align: center;
+  background-color: darkseagreen;
+}
+
+#active{
+  background-color: white;
+}
+
+#name{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.hello{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
